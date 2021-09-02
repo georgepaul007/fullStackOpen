@@ -1,1 +1,0 @@
-The diagram for the rendering of the notes in the single page app of he notes app is the same as the one which is the traditional version of the notes page because this version of the notes page doesnt change the HTTP requests as only the form part of the page was changed in the single page app.
