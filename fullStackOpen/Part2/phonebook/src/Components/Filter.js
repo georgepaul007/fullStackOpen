@@ -25,7 +25,6 @@ const Filter = ({persons}) => {
             <form onSubmit = {addFilter} >
                 <div >
                     filter shown with <input onChange = {handleFilter} value = {newFilter} />
-                    <button onClick = {handleClick} >Display filter</button>
                 </div>
             </form>
             {filteredNames.map(person =>   <Display key = {person.name} content = {person.name} number = {person.number} />)  }
